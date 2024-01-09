@@ -8,7 +8,7 @@ Before you begin, you will need to have the following:
 
 - A GitHub account.
 - Git installed/configured on your local computer.
-- Have MadCap Flare installed on your computer.
+- MadCap Flare installed on your computer.
 
 ## Connect a local MadCap project to GitHub
 1. Create a new, empty, repository in GitHub.
