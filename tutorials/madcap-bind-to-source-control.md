@@ -27,7 +27,7 @@ During the process of [setting up a new project](https://github.com/mcmillanpl/S
      - Enter the name or URL of the server.
      - Enter the path and port number.
      - Select the protocol (HTTP/HTTPS)
-2. Select the ellipsis option next to **Project Path** and choose the Team Foundation Server folder you want to bind the Flare project to.
+2. Select the ellipsis next to **Project Path** and choose the Team Foundation Server folder you want to bind the Flare project to.
 3. Select **OK**.
 4. You can add optional internal comments in the **Comment** field.
 5. Select the **Keep files checked out** checkbox to check out the project files once you are finished.
@@ -35,7 +35,7 @@ During the process of [setting up a new project](https://github.com/mcmillanpl/S
 
 ### Subversion
 1. Populate the **Server** field with the IP address.
-2. Select the ellipsis option next to **Project Path** and choose the Subversion folder you want to bind the Flare project to.
+2. Select the ellipsis next to **Project Path** and choose the Subversion folder you want to bind the Flare project to.
 3. Select **OK**.
 4. You can add optional internal comments in the **Comment** field.
 5. Select **OK**.
@@ -43,7 +43,7 @@ During the process of [setting up a new project](https://github.com/mcmillanpl/S
 
 ### Perforce Helix Core
 1. Populate the **Server** field with the server address.
-2. Select the ellipsis option next to the **User** field to choose a user, then select **OK**.
+2. Select the ellipsis next to the **User** field to choose a user, then select **OK**.
 3. Select to bind to a stream or depot from the **Type** drop-down.
    - If you are binding to a stream, select **New** next to the Stream field.
      - You may be prompted to log-in with your **User name** and **Password** fields, then select **OK**.
