@@ -12,17 +12,18 @@ Before you begin, you will need to have the following:
 
 ## Connect a local MadCap project to GitHub
 1. Create a new, empty, repository in GitHub.
-2. Copy the SSH link that is automatically created with the new repository.
+2. Copy the HTTP/SSH link that is automatically created with the new repository.
 3. In MadCap Flare, select **Project** from the ribbon and select **Project Properties**.
 4. Open **Source Control** and select **Bind Project**
 5. Select **Git** as the "source control provider" from the drop-down.
 6. Select the **Remote Repository** checkbox to make it true.
-7. Paste the SSH link you copied into the blank field below **Push on bind**.
+7. Paste the HTTP/SSH link you copied into the blank field below **Push on bind**.
 8. Enter your name, email address, then select **OK**.
    ![image](https://github.com/mcmillanpl/Sample/assets/156026947/22c739e4-b687-4bda-8dc4-3041c4a7764c)
 
 9. Review the details of your project in the **Project Properties** window, then select **OK**.
-    - You may be prompted to provide a public and private key. Select **OK** once complete.
+    - If you used an SSH URL, you may be prompted to provide a public and private key. Select **OK** once complete.
+    - If you used a HTTP URL, you may be prompted to log-in. Select **OK** once complete. 
 11. Refresh the GitHub repository page to see the changes.
 
 The local project has now been uploaded to the empty repository. Changes to your local files in MadCap Flare can be committed and pushed to this new repository. 
