@@ -16,7 +16,7 @@ Before you begin, you will need to have the following:
    - **Project name**: the name of the project.
    - **Project folder**: indicates the default location for the project.
    - **Language**: primary language for the project.
-   - **Bind to Source Control**: optional feature, which will allow you to integrate the new project with a source control application. For more information on this optional feature, refer to the Bind to Source Control article.
+   - **Bind to Source Control**: optional feature, which will allow you to integrate the new project with a source control application. For more information on this optional feature, refer to the [Bind to Source Control article](https://github.com/mcmillanpl/Sample/blob/main/tutorials/madcap-bind-to-source-control.md).
 3. Choose a project template, select **Next**.
    - **New from template**: choose a factory file as a starting point. You can also select you own custom template file by expanding the appropriate folder and choosing the template file you want.
    - **New from existing**: this option allows you to use an existing project as a basis for a new project.
