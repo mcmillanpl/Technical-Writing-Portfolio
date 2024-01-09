@@ -1,5 +1,5 @@
 # Bind to source control
-The **Bind to Source Control** is a feature that allows users to connect their Flare projects to a version control system (VCS) such as Git or SVN. By binding a Flare project to source control, users can track changes, collaborate with team members, manage different versions of the project, and revert to previous versions if needed. This integration helps streamline the documentation workflow and maintain version history for easier project management.
+**Bind to Source Control** is a feature that allows users to connect their Flare projects to a version control system (VCS) such as Git or SVN. By binding a Flare project to source control, users can track changes, collaborate with team members, manage different versions of the project, and revert to previous versions if needed. This integration helps streamline the documentation workflow and maintain version history for easier project management.
 
 ## Bind project
 During the process of [setting up a new project](https://github.com/mcmillanpl/Sample/new/main/tutorials/create-a-project-in-madcap), you can choose to bind your project to a source control application. 
