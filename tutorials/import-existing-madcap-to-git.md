@@ -5,11 +5,13 @@ This tutorial outlines the steps to import an existing MadCap project from Git t
 1. Go to the repository containing the MadCap Flare project you want to import.
 2. Copy the SSH/HTTPS link.
 3. In MadCap Flare, select the **File** drop-down, then **New Project**.
-4. Select **Import From Source Control**b
+4. Select **Import From Source Control**.
 5. In the **Import Project From Source Control Wizard** window, paste the copied SSH/HTTPS link into the **Remote:**  field.
-6. Select **Next**
-7. Select **Browse**, then select the MadCap Flare project from the remote repository. Select **Ok**.
-8. Select **Next**. then reviewthe project name and folder. Select **Finish**.
+
+    ![image](https://github.com/mcmillanpl/Sample/assets/156026947/5bf34568-9729-4032-a6fc-95f94e7b8f7c)
+7. Select **Next**
+8. Select **Browse**, then select the MadCap Flare project from the remote repository. Select **Ok**.
+9. Select **Next**. then reviewthe project name and folder. Select **Finish**.
 
 The MadCap project will now be available on your local computer and is bound to your remote repository. 
 
