@@ -22,7 +22,8 @@ Before you begin, you will need to have the following:
    ![image](https://github.com/mcmillanpl/Sample/assets/156026947/22c739e4-b687-4bda-8dc4-3041c4a7764c)
 
 9. Review the details of your project in the **Project Properties** window, then select **OK**.
-10. Refresh the GitHub repository page to see the changes.
+    - You may be prompted to provide a public and private key. Select **OK** once complete.
+11. Refresh the GitHub repository page to see the changes.
 
 The local project has now been uploaded to the empty repository. Changes to your local files in MadCap Flare can be committed and pushed to this new repository. 
 
