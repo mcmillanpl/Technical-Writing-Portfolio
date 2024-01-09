@@ -7,7 +7,7 @@ Before you can send an API query, you will require:
 - API access token to authenticate requests.
 - Postman account.
 
-## Retrieve a pull request
+## Send a query request
 `POST https://{ClientDomainName}.plmapps.com/services/data/v3.0/graphql`
 
 ## Parameters
