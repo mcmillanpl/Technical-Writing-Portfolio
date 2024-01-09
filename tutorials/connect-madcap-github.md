@@ -20,4 +20,4 @@ Connecting MadCap Flare to Git can provide several benefits, such as allowing th
 The local project has now been uploaded to the empty repository. Now changes to your local files in MadCap Flare can be committed and pushed to this new repository. 
 
 ### Related pages
-- Import an existing MadCap project from Git
+- [Import an existing MadCap project from Git](https://github.com/mcmillanpl/Sample/edit/main/tutorials/import-existing-madcap-to-git.md)
