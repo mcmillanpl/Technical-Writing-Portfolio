@@ -1,5 +1,5 @@
 # Import an existing MadCap project from Git
-Importing an existing MadCap project from Git can be useful when you want to reuse content, styles, or other elements from one project to another, saving time and effort in creating new content from scratch.
+This tutorial outlines the steps to import an existing MadCap project from Git to a user's local computer. Importing an existing MadCap project from Git can be useful when you want to reuse content, styles, or other elements from one project to another, saving time and effort in creating new content from scratch.
 
 ## Import existing project
 1. Go to the repository containing the MadCap Flare project you want to import.
