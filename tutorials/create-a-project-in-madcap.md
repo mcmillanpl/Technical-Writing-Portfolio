@@ -29,4 +29,4 @@ Now that your project is created, you can begin adding content and features.
 
 ## Related pages
 - [Connect Madcap to Github](https://github.com/mcmillanpl/Sample/edit/main/tutorials/connect-madcap-github.md)
-- [Import an existing MadCap project from GitHub]([https://github.com/mcmillanpl/Sample/edit/main/tutorials/import-existing-madcap-to-git.md)
+- [Import an existing MadCap project from GitHub](https://github.com/mcmillanpl/Sample/edit/main/tutorials/import-existing-madcap-to-git.md)
