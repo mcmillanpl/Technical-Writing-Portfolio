@@ -14,4 +14,4 @@ Importing an existing MadCap project from Git can be useful when you want to reu
 The MadCap project will now be available on your local computer and is bound to your remote repository. 
 
 ## Related pages
-- [Connect MadCap Flare to Git]()
+- [Connect MadCap Flare to Git](https://github.com/mcmillanpl/Sample/blob/main/tutorials/connect-madcap-github.md)
