@@ -26,3 +26,7 @@ Before you begin, you will need to have the following:
    - In MadCap Flare, targets are a single instance of an output type. These targets can include HTML, PDF, Word, and ePub. A target file is used for each instance of an output type. And you can have many targets in your project. You can always change the primary target later.
 
 Now that your project is created, you can begin adding content and features. 
+
+## Related pages
+- [Connect Madcap to Github](https://github.com/mcmillanpl/Sample/edit/main/tutorials/connect-madcap-github.md)
+- [Import an existing MadCap project from GitHub](https://github.com/mcmillanpl/Sample/edit/main/tutorials/import-existing-madcap-to-github.md)
