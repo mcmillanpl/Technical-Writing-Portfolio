@@ -3,6 +3,13 @@ This tutorial outlines the steps needed to connect Madcap Flare to GitHub. After
 
 Connecting MadCap Flare to Git can provide several benefits, such as allowing the documentation team to leverage version control, enabling them to track changes, collaborate easily, and roll back to previous versions if needed. Additionally, it streamlines the review and approval process by providing a centralized platform for team members to contribute, comment, and merge changes. 
 
+## Prerequisites
+Before you begin, you will need to have the following:
+
+- A GitHub account.
+- Git installed/configured on your local computer.
+- Have MadCap Flare installed on your computer.
+
 ## Connect a local MadCap project to GitHub
 1. Create a new, empty, repository in GitHub.
 2. Copy the SSH link that is automatically created with the new repository.
