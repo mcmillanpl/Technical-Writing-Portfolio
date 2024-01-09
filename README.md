@@ -4,9 +4,3 @@ This repository contains samples of my technical writing. I am passionate about 
 Besides having almost a decade of technical writing experience, I am also certified as a Salesforce Admin, in Conga Composer, Conga Contracts for Salesforce, and CongaSign.
 
 My work history can be found on [LinkedIn](https://www.linkedin.com/in/pamela-mcmillan/). 
-
-## Documentation types
-- How-tos
-- Quick start guides
-- Reference guides
-- Tutorials
