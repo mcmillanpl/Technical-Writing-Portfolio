@@ -1,4 +1,4 @@
-# Connect MadCap Flare to Git
+# Connect existing MadCap Flare project to Git
 This tutorial outlines the steps needed to connect Madcap Flare to GitHub. After connecting your project in Git, you will be able to commit all your changes to Git and sync the repository with any MadCap Flare project. 
 
 Connecting MadCap Flare to Git can provide several benefits, such as allowing the documentation team to leverage version control, enabling them to track changes, collaborate easily, and roll back to previous versions if needed. Additionally, it streamlines the review and approval process by providing a centralized platform for team members to contribute, comment, and merge changes. 
