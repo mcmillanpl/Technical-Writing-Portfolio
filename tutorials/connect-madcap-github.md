@@ -13,7 +13,7 @@ Before you begin, you will need to have the following:
 ## Connect a local MadCap project to GitHub
 1. Create a new, empty, repository in GitHub.
 2. Copy the HTTP/SSH link that is automatically created with the new repository.
-3. In MadCap Flare, select **Project** from the ribbon and select **Project Properties**.
+3. In the MadCap Flare project, select **Project** from the ribbon and select **Project Properties**.
 4. Open **Source Control** and select **Bind Project**
 5. Select **Git** as the "source control provider" from the drop-down.
 6. Select the **Remote Repository** checkbox to make it true.
