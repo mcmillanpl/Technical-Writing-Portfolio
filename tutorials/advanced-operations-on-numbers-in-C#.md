@@ -155,7 +155,7 @@ Now it’s time to apply what you’ve learned by converting feet to meters. You
 
 Run your program and check your result. 
 
-Continue to view an example of a solution:
+### Example of a solution:
 
 ```C#
 class conversion
@@ -177,13 +177,18 @@ class conversion
 ```
 
 ### Knowledge Check
-1.	What is a method?
-a.	A type of variable.
-b.	A data structure that contains fields.
-c.	A block of code that can perform specific tasks.
+**1.	What is a method?**
 
 
-2.	What should the return type of this method be?
+  a.	A type of variable.
+
+  b.	A data structure that contains fields.
+
+  c.	A block of code that can perform specific tasks.  
+<br />
+
+
+**2.	What should the return type of this method be?**
 
 ```C#
 static _____ Km_to_mi(float Km)
@@ -192,13 +197,18 @@ static _____ Km_to_mi(float Km)
  }
 ```
 
-a.	bool
-b.	int
-c.	float 
+
+  a.	bool
+ 
+  b.	int
+ 
+  c.	float   
+ <br />
 
 
-3.	Which method would result in a compilation error?
-a.
+**3.	Which method would result in a compilation error?**
+
+  a.
 
 ```C#
 static decimal C_to_f(decimal temp)
@@ -207,7 +217,7 @@ static decimal C_to_f(decimal temp)
  }
 ```
 
-b.
+  b.
 
 ```C#
 static int M_to_f(decimal meters)
@@ -216,7 +226,7 @@ static int M_to_f(decimal meters)
  }
 ```
 
-c.
+  c.
 
 ```C#
 static double Mi_to_km(int miles)
@@ -224,9 +234,9 @@ static double Mi_to_km(int miles)
      return miles * 1.60934;
  }
 ```
-
-
-
+<br />
+<br />
+<br />
 
 
 
