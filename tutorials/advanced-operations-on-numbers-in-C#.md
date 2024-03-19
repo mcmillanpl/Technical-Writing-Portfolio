@@ -230,7 +230,7 @@ static double Mi_to_km(int miles)
 
 
 
-Answers
+#### Answers
 1.	C -  a method is a block of code that performs specific tasks set by the developer.
 2.	C – the return type should be float because the variable Km is a ``float`` type.
 3.	B – the method return type does not match the type of the calculated value produced by ``meters/3.28m``.
