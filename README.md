@@ -22,7 +22,6 @@ Bachelor of English | English Literature | Graduated May 2011 | Student of Disti
 
 University of Winnipeg | Winnipeg, MB, Canada
 
-## Other Links
-Additional documents can be found in this [Google Drive folder.](https://drive.google.com/drive/folders/1amyPGmD9mboxGNu4a5W0l6Pu1WnylgvB?usp=sharing)
+## Connect with me
 
-My work history can be found on [LinkedIn](https://www.linkedin.com/in/pamela-mcmillan/). 
+My [LinkedIn](https://www.linkedin.com/in/pamela-mcmillan/). 
