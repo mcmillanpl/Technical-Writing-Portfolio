@@ -3,7 +3,7 @@
 
 ### [pull-request.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/API/pull-request.md)
 
-Project Goal: creation of an simple tutorial, with the goal of explaining a pull request and guiding users in creating one
+Project Goal: creation of a simple tutorial, with the goal of explaining a pull request and guiding users in creating one
 
 Tools Used: Markdown, GitHub
 
@@ -14,7 +14,7 @@ Audience: Software developers
 
 ### [send-query.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/API/send-query.md)
 
-Project Goal: creation of an simple tutorial, with the goal of explaining a send query and guiding users in creating one
+Project Goal: creation of a simple tutorial, with the goal of explaining a send query and guiding users in creating one
 
 Tools Used: Markdown, GitHub
 
@@ -25,7 +25,7 @@ Audience: Software developers
 
 ### [git-commands.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/reference/git-commands.md)
 
-Project Goal: creation of an reference document
+Project Goal: creation of a reference document
 
 Tools Used: Markdown, GitHub
 
@@ -113,7 +113,7 @@ Audience: potential/current clients
 
 ### [sample infosheet](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/Sales%20and%20Marketing/sample-infosheet.pdf)
 
-Project Goal: creation of a info sheet of product for sales use
+Project Goal: creation of an info sheet of product for sales use
 
 Tools Used: Microsoft suite of products
 
