@@ -23,5 +23,6 @@ Bachelor of English | English Literature | Graduated May 2011 | Student of Disti
 University of Winnipeg | Winnipeg, MB, Canada
 
 ## Connect with me
+Email: mcmillan.pld@gmail.com
 
 My [LinkedIn](https://www.linkedin.com/in/pamela-mcmillan/). 
