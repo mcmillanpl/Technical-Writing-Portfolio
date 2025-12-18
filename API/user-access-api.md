@@ -42,15 +42,19 @@ Retrieves a list of all active users and their assigned Conga/Salesforce permiss
     }
   ]
 }
+
 Endpoint: Update User License
 PATCH /v2/access/users/{user_id}
 
 Request Body
+
 {
   "action": "assign",
   "license_name": "conga_contracts"
 }
+
 Response Example (200 OK)
+
 {
   "message": "License 'conga_contracts' successfully assigned.",
   "status": "complete"
