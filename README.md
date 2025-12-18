@@ -1,7 +1,22 @@
 # Writing Portfolio
 This repository contains samples of my technical writing. This portfolio is managed using GitHub to showcase my proficiency with docs-as-code workflows and version control.
 
-# Pamela McMillan | Senior Product Owner & Documentation Strategist
+## API Documentation Samples
+I have designed a suite of API references that simulate a real-world contract generation platform:
+
+* **[User Access API](./API/user-access-api.md)**: Manage permissions and licenses.
+* **[Webhook Subscription API](./API/webhook-api.md)**: Real-time event notifications for document signing.
+* **[Salesforce Query Service](./API/send-query.md)**: Executing SOQL queries via REST.
+* **[Salesforce Pull Request API](./API/pull-request.md)**: Synchronizing record data for contract generation.
+
+## Tools & Tech
+* **Languages**: Markdown, JSON, SOQL
+* **Workflow**: Git/GitHub (Docs-as-Code), VS Code
+* **Domain**: Salesforce CRM, Conga Composer/Sign
+
+# About Me
+
+## Pamela McMillan | Senior Product Owner & Documentation Strategist
 
 I am a Senior Product Owner and Documentation Strategist with over a decade of experience bridging the gap between complex engineering and user-centric solutions. Throughout my career, I have treated documentation and internal systems as products—managing their entire lifecycle, from gathering requirements with engineering and DevOps to delivering high-impact solutions for thousands of users.
 
@@ -19,8 +34,6 @@ I view documentation as a product and the developer/user as my customer. Through
 * **Agile:** SCRUM/SAFE, Jira, Sprint Planning.
 * **Admin:** Salesforce & Conga Certified Administrator.
 * **Development:** Docs-as-Code (Jekyll), GitHub, Git Bash, HTML/XML.
-
-See more details about the sample documents in this portfolio [here.](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/project-details.md)
 
 ## Certifications
 Salesforce Administrator, Conga Composer, Conga Contracts for Salesforce, Conga Sign 
