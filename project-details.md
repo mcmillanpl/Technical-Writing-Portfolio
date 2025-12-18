@@ -1,120 +1,33 @@
-# Project details
+---
+layout: page
+title: Project Details - API Strategy
+---
 
+# Project Details: Salesforce and Conga Integration Suite
 
-### [pull-request.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/API/pull-request.md)
-
-Project Goal: creation of a simple tutorial, with the goal of explaining a pull request and guiding users in creating one
-
-Tools Used: Markdown, GitHub
-
-Audience: Software developers
+## Purpose
+The documentation in this portfolio simulates a high-scale integration between a Salesforce CRM and a third-party Contract Generation engine. The goal is to provide developers with the necessary endpoints to manage users, fetch record data via SOQL, and synchronize document signing events in real-time.
 
 ---
 
+## Strategy and Design Choices
 
-### [send-query.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/API/send-query.md)
+### **User Access API**
+* **The Goal**: To automate the provisioning of user licenses and permissions.
+* **Key Design**: Standardizing the `license_type` and `permission_set` parameters ensures that external administrators can manage access without needing deep knowledge of the underlying database schema.
 
-Project Goal: creation of a simple tutorial, with the goal of explaining a send query and guiding users in creating one
+### **Webhook API**
+* **The Goal**: To provide a push-based notification system for document lifecycle changes.
+* **Key Design**: By using a subscription-based model (`POST /v1/webhooks/subscribe`), we reduce API overhead. Instead of polling for updates, the system notifies the developer immediately when a contract is signed or declined.
 
-Tools Used: Markdown, GitHub
-
-Audience: Software developers
-
----
-
-
-### [git-commands.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/reference/git-commands.md)
-
-Project Goal: creation of a reference document
-
-Tools Used: Markdown, GitHub
-
-Audience: Software developers
+### **Salesforce Query and Pull APIs**
+* **The Goal**: To bridge the data gap between CRM records and document templates.
+* **Key Design**: I separated "Query" (for broad data fetching) from "Pull" (for specific record synchronization). This provides developers with flexibility: they can either search for records using SOQL or directly target a known Salesforce ID for immediate contract population.
 
 ---
 
-
-### [advanced-operations-on-numbers-in-C#.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/tutorials/advanced-operations-on-numbers-in-C%23.md)
-
-Project Goal: creation of an educational module utilizing code examples
-
-Tools Used: Markdown, GitHub
-
-Audience: End-users, customer support
-
----
-
-
-### [connect-madcap-github.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/tutorials/connect-madcap-github.md)
-
-Project Goal: creation of an educational module, highlighting knowledge of software/user documentation
-
-Tools Used: Markdown, GitHub
-
-Audience: End-users, customer support
-
----
-
-
-### [create-a-project-in-madcap.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/tutorials/create-a-project-in-madcap.md)
-
-Project Goal: creation of an educational module, highlighting knowledge of software/user documentation
-
-Tools Used: Markdown, GitHub
-
-Audience: End-users, customer support
-
----
-
-
-### [import-existing-madcap-to-git.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/tutorials/import-existing-madcap-to-git.md)
-
-Project Goal: creation of an educational module, highlighting knowledge of software/user documentation
-
-Tools Used: Markdown, GitHub
-
-Audience: End-users, customer support
-
----
-
-
-### [madcap-bind-to-source-control.md](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/tutorials/madcap-bind-to-source-control.md)
-
-Project Goal: creation of an educational module, highlighting knowledge of software/user documentation
-
-Tools Used: Markdown, GitHub
-
-Audience: End-users, customer support
-
----
-
-
-### [sample user manual](reference/101343_PowerCab2_Manual.pdf)
-
-Project Goal: creation of an in-depth user manual for complicated product/new release
-
-Tools Used: Adobe, Microsoft
-
-Audience: End-users, customer support
-
----
-
-
-### [sample datasheet](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/Sales%20and%20Marketing/sample-datasheet.pdf)
-
-Project Goal: creation of a datasheet of new product for sales use
-
-Tools Used: Adobe suite of products
-
-Audience: potential/current clients
-
----
-
-
-### [sample infosheet](https://github.com/mcmillanpl/Technical-Writing-Portfolio/blob/main/Sales%20and%20Marketing/sample-infosheet.pdf)
-
-Project Goal: creation of an info sheet of product for sales use
-
-Tools Used: Microsoft suite of products
-
-Audience: potential/current clients
+## Technical Specifications
+* **Architecture**: RESTful API
+* **Data Format**: JSON
+* **Authentication**: OAuth 2.0 (Bearer Token)
+* **Standardization**: Consistent error handling codes (400, 401, 403, 404) across all services to simplify the developer's integration logic.
