@@ -1,61 +1,41 @@
-# Writing Portfolio
-This repository contains samples of my technical writing. This portfolio is managed using GitHub to showcase my proficiency with docs-as-code workflows and version control.
+---
+layout: page
+title: Portfolio Home
+---
 
-## API Documentation Samples
-I have designed a suite of API references that simulate a real-world contract generation platform:
+# Technical Writing Portfolio
 
-* **[User Access API](./API/user-access-api.md)**: Manage permissions and licenses.
-* **[Webhook Subscription API](./API/webhook-api.md)**: Real-time event notifications for document signing.
-* **[Salesforce Query Service](./API/send-query.md)**: Executing SOQL queries via REST.
-* **[Salesforce Pull Request API](./API/pull-request.md)**: Synchronizing record data for contract generation.
+## Professional Overview
+I am a senior technical writer and product specialist with over a decade of experience within the Salesforce and Conga ecosystems. My expertise lies in translating complex enterprise workflows—specifically Contract Lifecycle Management (CLM) and automated document generation—into clear, actionable technical documentation.
 
-## Tools & Tech
-* **Languages**: Markdown, JSON, SOQL
-* **Workflow**: Git/GitHub (Docs-as-Code), VS Code
-* **Domain**: Salesforce CRM, Conga Composer/Sign
+I advocate for a "Docs-as-Code" approach, utilizing Markdown and Git-based workflows to ensure documentation evolves at the same pace as the product.
 
-# About Me
+---
 
-## Pamela McMillan | Senior Product Owner & Documentation Strategist
+## Technical Documentation Samples
+The following samples represent a strategic API suite for a contract generation platform. Each document is designed to address specific developer requirements while maintaining alignment with business governance standards.
 
-I am a Senior Product Owner and Documentation Strategist with over a decade of experience bridging the gap between complex engineering and user-centric solutions. Throughout my career, I have treated documentation and internal systems as products—managing their entire lifecycle, from gathering requirements with engineering and DevOps to delivering high-impact solutions for thousands of users.
+* **[User Access API](./API/user-access-api.md)**: Documentation for managing license provisioning and auditing user permissions across Salesforce and Conga environments.
+* **[Webhook Subscription API](./API/webhook-api.md)**: A guide for configuring real-time event notifications to synchronize document signing statuses with external systems.
+* **[Salesforce Query Service](./API/send-query.md)**: Technical reference for executing SOQL queries via REST to retrieve dynamic record data.
+* **[Salesforce Pull Request API](./API/pull-request.md)**: Specifications for initiating and monitoring data synchronization between CRM records and document engines.
 
-My background is unique because I combine technical administration with strategic leadership. I am a certified Salesforce and Conga Administrator who has successfully implemented scalable solutions that improved business process efficiency by 40% and accelerated development cycles by 20%. I don't just document roadmaps; I design them.
+---
 
-In my recent roles at Stored Energy Systems and Trimble, I have been deeply embedded in Agile SCRUM and SAFE environments. I’ve led cross-functional teams to reduce delivery times by 30% and authored the governance standards that improved overall team efficiency by 40%. I am passionate about using data and stakeholder feedback to turn technical complexity into a seamless, high-value user experience.
+## Core Competencies
 
-### Why a Product Owner?
-I view documentation as a product and the developer/user as my customer. Throughout my career, I have:
-* **Managed Lifecycles:** Owned end-to-end documentation for 20+ product lines.
-* **Optimized Systems:** Implemented Salesforce and Conga solutions that improved contract efficiency by 60%.
-* **Led Teams:** Directed 5+ cross-functional teams to reduce delivery times by 30%.
+| Category | Skills and Tools |
+| :--- | :--- |
+| **Domain Expertise** | Salesforce CRM, Conga Composer, Conga Sign, CLM, Product Management. |
+| **Technical Writing** | Markdown, REST API Reference, JSON Schema, Documentation Audits. |
+| **Development Tools** | Git, GitHub, VS Code, SOQL, Postman. |
+| **Strategy** | Information Architecture, UX Writing, Stakeholder Management. |
 
-### Technical Stack
-* **Agile:** SCRUM/SAFE, Jira, Sprint Planning.
-* **Admin:** Salesforce & Conga Certified Administrator.
-* **Development:** Docs-as-Code (Jekyll), GitHub, Git Bash, HTML/XML.
+---
 
-## Certifications
-Salesforce Administrator, Conga Composer, Conga Contracts for Salesforce, Conga Sign 
+## Contact and Professional Profiles
+* **LinkedIn**: [https://www.linkedin.com/in/pamela-mcmillan/]
+* **Email**: [mcmillan.pld@gmail.com]
+* **GitHub**: [https://github.com/mcmillanpl]
 
-## Skills
-
-**Technical Writing Tools/CMS:** MadCap Flare, Single Source Content Management, Confluence, GitHub Foundations, HTML/XML, XML/DITA, Markdown, Git Bash
-
-**Methodologies:** Agile SCRUM/SAFE, Docs-as-Code (Jekyll) 
-
-**Related Software/Platforms:** Salesforce administration, Conga administration (Composer, Contracts, Sign), Microsoft Office/Google Suite, Jira 
-
-**Documentation Types:** API Documentation, User Manuals, Technical Guides, FAQs, Technical Training Content, UX Writing, Instructional Design, Proposal Writing
-
-**Soft Skills/Other:** Project Management & Implementation, Marketing Support/Strategy Planning, Technical Support
-
-## Education
-Bachelor of English | English Literature | Graduated May 2011 | Student of Distinction
-
-University of Winnipeg | Winnipeg, MB, Canada
-
-## Connect with me
-Email: mcmillan.pld@gmail.com
-
-My [LinkedIn](https://www.linkedin.com/in/pamela-mcmillan/). 
+*"Documentation is the final feature of any successful product."*
