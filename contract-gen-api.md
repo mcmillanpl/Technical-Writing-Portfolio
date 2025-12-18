@@ -7,7 +7,7 @@ permalink: /portfolio/api-sample/
 # ContractGen REST API v1.0
 
 ## Overview
-[cite_start]This API allows developers to programmatically generate and track legal documents via Salesforce. [cite: 65, 95]
+This API allows developers to programmatically generate and track legal documents via Salesforce.
 
 ## Endpoint: Generate Document
 `POST /v1/documents/generate`
@@ -16,7 +16,7 @@ permalink: /portfolio/api-sample/
 | Parameter | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `template_id` | String | Yes | UUID of the document template. |
-| `source_id` | String | Yes | [cite_start]Salesforce Opportunity/Account ID. [cite: 65] |
+| `source_id` | String | Yes | Salesforce Opportunity/Account ID. |
 
 **Example Request:**
 ```json
