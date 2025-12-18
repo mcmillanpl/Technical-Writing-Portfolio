@@ -34,8 +34,8 @@ The following samples represent a strategic API suite for a contract generation 
 ---
 
 ## Contact and Professional Profiles
-* **LinkedIn**: [https://www.linkedin.com/in/pamela-mcmillan/]
-* **Email**: [mcmillan.pld@gmail.com]
-* **GitHub**: [https://github.com/mcmillanpl]
+* **LinkedIn**: https://www.linkedin.com/in/pamela-mcmillan/
+* **Email**: mcmillan.pld@gmail.com
+* **GitHub**: https://github.com/mcmillanpl
 
 *"Documentation is the final feature of any successful product."*
