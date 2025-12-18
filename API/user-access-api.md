@@ -1,7 +1,6 @@
 ---
 layout: page
 title: API Strategy - User Access & Provisioning
-permalink: /portfolio/user-access-api/
 ---
 
 # User Access API v2.1
@@ -15,25 +14,21 @@ The User Access API allows administrators to audit and manage user permissions a
 ## Authentication
 All requests require a **Bearer Token** passed in the HTTP Authorization header.
 `Authorization: Bearer {YOUR_API_TOKEN}`
+
 ---
 
 ## Endpoint: List User Permissions
-Retrieves a list of all active users and their assigned Conga/Salesforce permission sets.
-
-### **Request**
 `GET /v2/access/users`
 
-**Query Parameters:**
+Retrieves a list of all active users and their assigned Conga/Salesforce permission sets.
+
+### **Query Parameters**
 | Parameter | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `status` | String | No | Filter by `active` or `inactive`. |
-| `license_type` | String | No | Filter by `conga_sign`, `conga_composer`, or `salesforce`. |
+| `license_type` | String | No | Filter by `conga_sign` or `salesforce`. |
 
-**Example Request:**
-`GET https://api.yoursystem.com/v2/access/users?status=active&license_type=conga_sign`
-
-### **Response**
-**Success (200 OK)**
+### **Response Example (200 OK)**
 ```json
 {
   "total_results": 2,
@@ -44,13 +39,19 @@ Retrieves a list of all active users and their assigned Conga/Salesforce permiss
       "email": "mcmillan.pld@gmail.com",
       "permissions": ["Conga Sign Admin", "Salesforce User"],
       "last_login": "2025-12-18T10:30:00Z"
-    },
-    {
-      "user_id": "u_7741",
-      "name": "Jane Smith",
-      "email": "jsmith@example.com",
-      "permissions": ["Conga Composer User"],
-      "last_login": "2025-12-15T09:15:00Z"
     }
   ]
+}
+Endpoint: Update User License
+PATCH /v2/access/users/{user_id}
+
+Request Body
+{
+  "action": "assign",
+  "license_name": "conga_contracts"
+}
+Response Example (200 OK)
+{
+  "message": "License 'conga_contracts' successfully assigned.",
+  "status": "complete"
 }
