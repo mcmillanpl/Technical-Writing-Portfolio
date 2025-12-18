@@ -13,6 +13,7 @@ The User Access API allows administrators to audit and manage user permissions a
 
 ## Authentication
 All requests require a **Bearer Token** passed in the HTTP Authorization header.
+
 `Authorization: Bearer {YOUR_API_TOKEN}`
 
 ---
@@ -23,6 +24,7 @@ All requests require a **Bearer Token** passed in the HTTP Authorization header.
 Retrieves a list of all active users and their assigned Conga/Salesforce permission sets.
 
 ### **Query Parameters**
+
 | Parameter | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `status` | String | No | Filter by `active` or `inactive`. |
@@ -41,21 +43,4 @@ Retrieves a list of all active users and their assigned Conga/Salesforce permiss
       "last_login": "2025-12-18T10:30:00Z"
     }
   ]
-}
-
-Endpoint: Update User License
-PATCH /v2/access/users/{user_id}
-
-Request Body
-
-{
-  "action": "assign",
-  "license_name": "conga_contracts"
-}
-
-Response Example (200 OK)
-
-{
-  "message": "License 'conga_contracts' successfully assigned.",
-  "status": "complete"
 }
