@@ -9,6 +9,12 @@ permalink: /portfolio/user-access-api/
 ## Overview
 The User Access API allows administrators to audit and manage user permissions across the **Salesforce** and **Conga** environments. This ensures compliance with security protocols and streamlines the onboarding/offboarding process.
 
+## Base URL
+`https://api.contractgen.com/v2`
+
+## Authentication
+All requests require a **Bearer Token** passed in the HTTP Authorization header.
+`Authorization: Bearer {YOUR_API_TOKEN}`
 ---
 
 ## Endpoint: List User Permissions
