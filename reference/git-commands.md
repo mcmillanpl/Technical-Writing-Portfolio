@@ -1,60 +1,72 @@
-# Git commands
+---
+layout: page
+title: Git Command Quick Reference
+---
 
-## Overview
-This reference document outlines a basic reference page for beginner Git users, such as navigating and creating directories, configuring Git, and setting up a remote repository. 
+# Git Command Quick Reference
+
+This document provides a foundational reference for version control workflows, covering directory navigation, Git configuration, and the standard remote repository lifecycle.
 
 ## Navigation
-The following commands are used to navigate directories/files on your local computer. 
+Commands used to navigate and inspect directories on your local machine.
 
 | Command | Description |
 | ----------- | ----------- |
-| `cd ..` | Takes you to the directory above the one you're currently in. |
-| `cd <directory_name>` | Enter and open a directory. |
-| `cd -` | Returns you to the previous directory. |
-| `pwd` | Displays your current file path. |
-|`pwd -p` | Displays the full current file path. |
-| `ls` | Lists all files in a directory. |
-| `ls -a` | Lists and files and hidden files in a directory. |
-| `ls -l` | Lists all directories in a directory. |
+| `cd ..` | Moves up one directory level. |
+| `cd <directory_name>` | Enters the specified directory. |
+| `cd -` | Returns to the previous working directory. |
+| `pwd` | Prints the current working directory path. |
+| `ls` | Lists files and folders in the current directory. |
+| `ls -a` | Lists all files, including hidden files (e.g., `.git`). |
+| `ls -l` | Lists files in **long format** (showing permissions, size, and owner). |
 
-## Create/rename files and directories
-The following commands are used to create new files/directories, as well as rename them.
-
-| Command | Description |
-| ----------- | ----------- |
-| `git mv <old_filename> <new_filename>` | Renames a file. |
-|  `mkdir <directory_name>` | Creates an empty folder. |
-| `touch <filename.extension>` | Creates an empty file. |
-
-## Configure Git
-The following commans are used to configure a [Git environment](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) for your repositories on your local computer. 
+## File & Directory Management
+Commands for managing the physical structure of your project files.
 
 | Command | Description |
 | ----------- | ----------- |
-| `git config --global user.name "<username>"` | Sets Git username. |
-|  `git config --global user.email "<email>"` | Sets Git email address. |
+| `mkdir <directory_name>` | Creates a new empty folder. |
+| `touch <filename.extension>` | Creates a new empty file. |
+| `git mv <old_name> <new_name>` | Renames or moves a file and stages the change in Git. |
 
-## Perform Git workflow actions
-The following commands can be used to perform actions as part of the [Git workflow](https://uidaholib.github.io/get-git/3workflow.html).
+## Configuration
+Setting up your identity within the Git environment.
 
 | Command | Description |
 | ----------- | ----------- |
-| `git clone` | Clones a repository to your local computer, using either an HTTPS or SSH URL. |
-| `git status` | Displays the current state of your repository and staging area. |
-| `git log` | Lists all recent activities. |
-| `git add .` | Stages your files after applying and saving changes. |
-| `git commit -m "<message>"` | Records the changes made to a file. Use this command after staging the file (`add .`). Within the quotation marks, you can enter a message that describes the changes. |
-| `git push` | Pushes changes made in the local repository to the remote (GitHub.com) repository. |
-| `git push origin main` | Pushes changes from a different branch to the main branch. |
-| `git pull` | Updates the local repository by pulling and merging updates from the remote repository. |
-| `git fetch` | Displays changes made in the remote repository. It does not merge any changes with the local repository. |
-| `git remote -v` | Lists the URL of your remote repository in your terminal. The word _origin_ will appear at the start of your remote connection or remote repository's URL. Origin is the default and convention for the remote repository. |
-| `git init <directory>` | Creates a new Git repository or converts an existing local and unversioned directory into a Git repository. To convert a directory into a Git repository, open the directory using `cd` and enter `git init`. |
-| `git branch --all` | Lists all the branches within your repository. |
-| `git checkout <branch_name>` | Switches you to a different branch. |
-| `git checkout -b <branch-name>` | Creates a new branch and switches to it at the same time. |
-| `git switch <branch_name>` | Switches you to a different branch. (Git v2.23+) |
-| `git switch -c <branch-name>` | Creates a new branch and switches to it at the same time. (Git v2.23+) |
-| `git branch -d -r origin/feature/<branch>` | Deletes a local branch. |
-| `git fetch add upstream <link>` | Adds the upstream to your forked repository, allowing you to push changes to the original repository. When adding the upstream, make sure to use the HTTPS or SSH link. |
-| `git fetch upstream main` | Pulls any updates from the main branch of the forked repository to your local copy. |
+| `git config --global user.name "<name>"` | Sets your commit username globally. |
+| `git config --global user.email "<email>"` | Sets your commit email address globally. |
+
+## The Git Workflow
+These commands move data between your working directory, the staging area, and the remote repository.
+
+
+
+| Command | Description |
+| ----------- | ----------- |
+| `git init` | Initializes a new Git repository in the current folder. |
+| `git clone <url>` | Downloads an existing repository from a remote source. |
+| `git status` | Shows which files are staged, unstaged, or untracked. |
+| `git add .` | Stages all changes in the current directory for the next commit. |
+| `git commit -m "<message>"` | Records your staged changes with a descriptive message. |
+| `git log` | Displays a chronological history of commits. |
+| `git push origin <branch>` | Uploads local commits to the remote repository. |
+| `git pull` | Fetches and merges changes from the remote to your local copy. |
+
+## Branching & Collaboration
+Commands for managing parallel versions of a project.
+
+| Command | Description |
+| ----------- | ----------- |
+| `git branch -a` | Lists all local and remote branches. |
+| `git switch <branch>` | Switches to the specified branch. |
+| `git switch -c <branch>` | Creates a new branch and switches to it immediately. |
+| `git branch -d <branch>` | Deletes a local branch (use `-D` to force delete). |
+| `git remote add upstream <url>` | Maps a forked repository to the original "upstream" source. |
+| `git fetch upstream` | Retrieves updates from the original repository without merging them. |
+
+---
+
+### Documentation Standards
+* **CLI Syntax**: Required parameters are enclosed in `<brackets>`.
+* **Accuracy**: Verified against Git version 2.23+ (utilizing `switch` over `checkout` for branch management).

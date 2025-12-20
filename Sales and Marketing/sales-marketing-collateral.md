@@ -14,7 +14,7 @@ This section showcases professional marketing and sales enablement assets create
 * **Target Audience**: Field Engineers, Infrastructure Managers, and Procurement Specialists.
 * **Key Content**: Mission-critical reliability metrics, space-saving enclosure comparisons, and a comprehensive configuration guide.
 * **Focus**: Highlighting the transition from traditional battery setups to a fully integrated, "single part number" system that eliminates maintenance and simplifies installation.
-* **[View Data Sheet](./Sales%20and%20Marketing/sample-datasheet.pdf)**
+* **[View Data Sheet](./sample-datasheet.pdf)**
 
 ---
 
@@ -23,4 +23,4 @@ This section showcases professional marketing and sales enablement assets create
 * **Target Audience**: Fortune 500 Executives, Government Agencies, and Healthcare Institutions.
 * **Key Content**: Strategic partnership overviews, workforce mobility enablement, and managed cloud strategy benefits.
 * **Focus**: Communicating enterprise-scale resources and a delivery model designed to modernize e-commerce platforms and improve data protection.
-* **[View Information Sheet](./Sales%20and%20Marketing/sample-infosheet.pdf)**
+* **[View Information Sheet](./sample-infosheet.pdf)**

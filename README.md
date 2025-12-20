@@ -8,35 +8,29 @@ title: Portfolio Home
 ## Professional Overview
 I am a senior technical writer and product specialist with over a decade of experience across the Salesforce/Conga ecosystems, industrial power systems, and enterprise IT services. My expertise lies in translating complex enterprise workflows—from REST APIs and "Docs-as-Code" methodologies to mission-critical hardware specifications—into clear, actionable documentation.
 
-I bridge the gap between technical engineering and business value, ensuring that documentation serves as a strategic asset for developers, end-users, and stakeholders alike.
+Bridging the gap between technical engineering and business value, I ensure that documentation serves as a strategic asset for developers, end-users, and stakeholders alike.
 
 ---
 
 ## Technical Documentation & Strategy
-This portfolio is organized into three distinct categories to demonstrate versatility across different documentation lifecycles.
+This portfolio is organized into four distinct categories to demonstrate versatility across different documentation lifecycles.
 
 ### 1. Developer Documentation (API Suite)
-Strategic API references for a contract generation platform, designed to address specific developer requirements while maintaining alignment with business governance.
-* **[User Access API](./API/user-access-api.md)**: Managing license provisioning and auditing permissions.
-* **[Webhook Subscription API](./API/webhook-api.md)**: Configuring real-time event notifications for document signing.
-* **[Salesforce Query Service](./API/send-query.md)**: Executing SOQL queries via REST to retrieve dynamic record data.
-* **[Salesforce Pull Request API](./API/pull-request.md)**: Monitoring data synchronization between CRM and document engines.
+Strategic API references for contract generation and CRM integration.
+* **[API Documentation Overview](./API/api-overview.md)**: A high-level entry point for the RESTful suite, including User Access, Webhooks, and Salesforce Query services.
 
 ### 2. User Education & Tutorials
-
-End-user guides that focus on "Day 1" success and long-term system maintenance.
-* **[Setup & Configuration](./tutorials/setup-guide.md)**: Foundational guide for initial system installation.
-* **[Workflow Automation](./tutorials/workflow-tutorial.md)**: Deep dive into automating document generation via Salesforce triggers.
-* **[Troubleshooting Guide](./tutorials/troubleshooting.md)**: Proactive reference for resolving common integration errors.
+Technical SOPs and programming guides focused on toolchain management and developer onboarding.
+* **[Software & Workflow Tutorials](./tutorials/tutorial-overview.md)**: Featuring MadCap Flare-to-GitHub integration workflows and advanced C# numerical operations.
 
 ### 3. Sales & Marketing Collateral
 Product-focused assets designed for sales enablement and executive-level decision-making.
-* **[Salesforce & IT Marketing Collateral](./sales-marketing-collateral.md)**: Includes the SENS SuperTorque 8ZR technical data sheet and the OnX Corporate Capabilities overview.
+* **[Sales & Marketing Overview](./Sales%20and%20Marketing/sales-marketing-collateral.md)**: Includes the SENS SuperTorque 8ZR technical data sheet and the OnX Corporate Capabilities overview.
 
 ### 4. Technical Reference Guides
-Comprehensive manuals and quick-reference guides for industrial hardware and mission-critical power systems.
-* **[PowerCab2 Technical Manual](./Reference/PowerCab2_Manual.pdf)**: A 40+ page authoritative guide covering safety, theory of operation, and field service for non-stop DC power systems.
-* **[8ZR Quick-Start Guide](./Reference/8ZR_Quick-Start.pdf)**: A condensed, visual-first guide designed for field technicians to perform rapid hardware mounting and wiring.
+Comprehensive manuals, hardware guides, and developer workflow references.
+* **[Technical Reference Overview](./reference/technical-reference-guides.md)**: Featuring the PowerCab2 Manual, the 8ZR Quick-Start Guide, and the Git Command Quick Reference.
+
 ---
 
 ## Core Competencies
@@ -46,7 +40,7 @@ Comprehensive manuals and quick-reference guides for industrial hardware and mis
 | **Domain Expertise** | Salesforce CRM & CLM, Managed IT Services, **Industrial Power Systems**, Product Management. |
 | **Technical Writing** | Markdown (Docs-as-Code), REST API References, **Installation & Operation Manuals (IOM)**, **Quick-Start Guides**, Data Sheets. |
 | **Compliance & Standards** | **NFPA 70 / CSA C22.1 Safety Standards**, **UL/CE Certification Documentation**, Version Control (DCN/RMA). |
-| **Development Tools** | Git, GitHub, VS Code, SOQL, Postman, Adobe Acrobat Pro. |
+| **Development Tools** | **MadCap Flare**, Git, GitHub, VS Code, SOQL, Postman, Adobe Acrobat Pro. |
 | **Strategy** | Information Architecture, UX Writing, Stakeholder Management, Risk Mitigation. |
 
 ---

@@ -6,7 +6,7 @@ title: Project Details & Documentation Strategy
 # Project Details
 
 ## Purpose
-This portfolio demonstrates a multi-disciplinary approach to technical communication, ranging from developer-facing API specifications to high-level sales enablement collateral and end-user tutorials.
+This portfolio demonstrates a multi-disciplinary approach to technical communication, ranging from developer-facing API specifications and software version control workflows to high-level sales collateral and mission-critical industrial manuals.
 
 ---
 
@@ -18,25 +18,29 @@ This portfolio demonstrates a multi-disciplinary approach to technical communica
 
 ### **Webhook API**
 * **The Goal**: To provide a push-based notification system for document lifecycle changes.
-* **Key Design**: By using a subscription-based model (`POST /v1/webhooks/subscribe`), we reduce API overhead. Instead of polling for updates, the system notifies the developer immediately when a contract is signed or declined.
+* **Key Design**: By using a subscription-based model (`POST /v1/webhooks/subscribe`), we reduce API overhead. The system notifies the developer immediately when a contract is signed or declined.
 
 ### **Salesforce Query and Pull APIs**
 * **The Goal**: To bridge the data gap between CRM records and document templates.
-* **Key Design**: I separated "Query" (for broad data fetching) from "Pull" (for specific record synchronization). This provides developers with flexibility to either search for records using SOQL or directly target a known Salesforce ID.
+* **Key Design**: I separated "Query" (for broad data fetching) from "Pull" (for specific record synchronization), providing developers with the flexibility to use either SOQL syntax or direct Record IDs.
 
 ---
 
-## User Education & Tutorials
-These guides focus on "Day 1" user success and long-term system maintenance, translating technical features into actionable instructions.
+## User Education & Tutorials: Software & Workflows
+These guides demonstrate the "Docs-as-Code" methodology and the ability to document complex development toolchains.
 
-* **Onboarding & Setup**: Designed to reduce friction during initial installation by translating complex environment prerequisites into a logical, step-by-step sequence.
-* **Process Automation**: A deep dive into workflow logic, demonstrating how to bridge the gap between business requirements and system capabilities.
-* **Troubleshooting**: A proactive resource that categorizes common failure points and provides prescriptive recovery steps to minimize support overhead.
+### **MadCap Flare & Git Integration**
+* **The Goal**: To standardize how technical writing teams use version control.
+* **Key Design**: I documented the end-to-end lifecycle of a MadCap Flare project, from initial SSH binding to source control binding. This ensures that documentation stays synchronized with the software release cycle.
+
+### **C# Programming Concepts**
+* **The Goal**: To provide deep-dive educational content for developers working with numerical data.
+* **Key Design**: In "Advanced Operations on Numbers," I focused on technical accuracy and code readability, explaining bitwise operations and precision in a way that is accessible to junior developers while remaining useful to seniors.
 
 ---
 
 ## Sales & Marketing Collateral
-These assets demonstrate the ability to shift voice and tone to support sales cycles and executive-level decision-making across different industries.
+These assets demonstrate the ability to shift voice and tone to support sales cycles and executive-level decision-making.
 
 ### **Industrial Specifications (SENS)**
 * **The Goal**: To simplify the procurement of complex industrial engine starting systems.
@@ -49,13 +53,12 @@ These assets demonstrate the ability to shift voice and tone to support sales cy
 ---
 
 ## Technical Reference: Industrial Manuals & Compliance
-These documents represent the final stage of the documentation lifecycle: long-term operational support and regulatory safety compliance.
+These documents represent long-term operational support and regulatory safety compliance.
 
 ### **SENS PowerCab2 Technical Manual**
 * **The Goal**: To provide a definitive resource for the installation and maintenance of factory-packaged DC power systems.
-* **Strategic Design**: Built to satisfy rigorous safety standards (NFPA 70/CSA C22.1). I utilized a strict information hierarchy to ensure high-voltage warnings and safety protocols are prominent, mitigating operational risk for the end-user.
-* **Documentation Management**: Managed via formal Document Change Notices (DCN) and version control to ensure accuracy across long product lifecycles.
+* **Strategic Design**: Built to satisfy rigorous safety standards (**NFPA 70/CSA C22.1**). I utilized a strict information hierarchy to ensure high-voltage warnings are prominent, mitigating operational risk.
 
-### **SuperTorque 8ZR Quick-Start Guide**
-* **The Goal**: To accelerate "Time-to-Power" for field technicians.
-* **Strategic Design**: Shifted from text-heavy descriptions to a visual-first layout. By using annotated engineering drawings and simplified wiring diagrams, I enabled technicians to complete complex floor mounting and AC/DC connections without needing to consult the full technical manual.
+### **Git Command Reference**
+* **The Goal**: To provide a "cheat sheet" for internal engineering teams and beginner Git users.
+* **Strategic Design**: Categorized by intent (Navigation, Workflow, Branching) to reduce cognitive load. This reference supports a modern "Docs-as-Code" workflow by bridging basic terminal navigation with advanced Git collaboration commands.

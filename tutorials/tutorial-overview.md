@@ -5,36 +5,30 @@ title: User Education & Tutorials
 
 # User Education & Tutorials
 
-This section demonstrates the ability to translate complex system architectures into actionable, task-oriented instructions. These guides are designed to reduce user friction, accelerate onboarding, and empower administrators to manage integrations independently.
+This section demonstrates the ability to document complex software workflows and development environments. These guides focus on "Docs-as-Code" methodology and advanced programming concepts, providing clear paths for both technical writers and developers.
 
 ---
 
-## Foundational Setup
-Guidance focused on the initial deployment and environment readiness to ensure a stable integration.
+## MadCap Flare & Git Version Control
+A series of technical SOPs (Standard Operating Procedures) for managing documentation lifecycles within a collaborative development environment.
 
-* **[Installation and Configuration Guide](./setup-guide.md)**: A comprehensive walk-through of system prerequisites, package installation, and initial authentication setup.
-* **Focus**: Reducing "Time-to-Value" by providing a clear, chronological path to a functional environment.
-
----
-
-## Workflow Automation
-Advanced tutorials that explain how to leverage product features to solve specific business problems.
-
-* **[Workflow Automation Tutorial](./workflow-tutorial.md)**: A step-by-step guide on configuring Salesforce triggers to automate document generation and delivery via Conga.
-* **Focus**: Bridging the gap between raw API capabilities and real-world business process automation.
+* **[Connecting MadCap Flare to GitHub](./connect-madcap-github.md)**: A step-by-step guide for establishing secure SSH/HTTPS connections between Flare and remote repositories.
+* **[Source Control Binding](./madcap-bind-to-source-control.md)**: Best practices for binding projects to Git, ensuring clean commit histories and conflict resolution.
+* **[Importing Projects to Git](./import-existing-madcap-to-git.md)**: Instructions for migrating legacy local projects into a distributed version control system.
+* **[Creating New Projects](./create-a-project-in-madcap.md)**: Standardizing project templates and folder structures for team-wide consistency.
 
 ---
 
-## Maintenance and Support
-Proactive documentation designed to reduce support ticket volume and improve system reliability.
+## Programming & Development
+Focused educational content for software engineers and developers working with the .NET ecosystem.
 
-* **[Troubleshooting and FAQ](./troubleshooting.md)**: A curated list of common integration errors, diagnostic steps, and prescriptive solutions.
-* **Focus**: Self-service resolution and user empowerment during mission-critical operations.
+* **[Advanced Operations on Numbers in C#](./advanced-operations-on-numbers-in-C#.md)**: A deep dive into numerical precision, bitwise operations, and performance optimization in C#.
+* **Focus**: Translating abstract mathematical programming concepts into practical, readable code samples and explanations.
 
 ---
 
-## Pedagogical Standards
-All tutorials in this repository follow established technical communication principles:
-* **Task-Oriented**: Focused on what the user wants to *achieve* rather than just what the product *is*.
-* **Minimalism**: Eliminating unnecessary jargon to provide the shortest path to a successful outcome.
-* **Visual Anchors**: Utilizing clear headers and structured lists to improve scannability for busy administrators.
+## Documentation Standards
+All tutorials in this folder are built with a focus on developer experience (DX) and process scalability:
+* **Docs-as-Code**: Demonstrating the integration of professional authoring tools (MadCap Flare) with developer workflows (GitHub).
+* **Step-Oriented Instruction**: Every guide utilizes a "Goal-Action-Result" structure to ensure users can verify their progress at every stage.
+* **Technical Accuracy**: Code-heavy tutorials are vetted for syntax accuracy and follow industry-standard naming conventions.
