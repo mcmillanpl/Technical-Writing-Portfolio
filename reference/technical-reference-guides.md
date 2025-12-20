@@ -26,7 +26,7 @@ A condensed, visual-first deployment guide designed to bridge the gap between un
 * **Target Audience**: Field Service Technicians and Installation Contractors.
 * **Key Content**: Annotated engineering drawings, floor mounting templates, and simplified AC/DC terminal connection maps.
 * **Focus**: Accelerating "Time-to-Power" by extracting critical task-based info from the primary technical manual.
-* **[View Quick-Start Guide](./101346_8R_Quick-Start Guide.pdf)**
+* **[View Quick-Start Guide](./101346_8R_Quick-Start_Guide.pdf)**
 
 ---
 
