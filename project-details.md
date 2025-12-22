@@ -42,11 +42,11 @@ These guides demonstrate the "Docs-as-Code" methodology and the ability to docum
 ## Sales & Marketing Collateral
 These assets demonstrate the ability to shift voice and tone to support sales cycles and executive-level decision-making.
 
-### **Industrial Specifications (SENS)**
+### **Industrial Specifications**
 * **The Goal**: To simplify the procurement of complex industrial engine starting systems.
 * **Key Design**: Utilized a "Single Part Number" approach to highlight how prewired, factory-assembled units eliminate the need for separate battery, rack, and charger purchases.
 
-### **Corporate Capabilities (OnX)**
+### **Corporate Capabilities**
 * **The Goal**: To position the organization as a strategic end-to-end technology partner.
 * **Key Design**: Organized services into a "Consult, Build, Transform, Support" lifecycle to define the value proposition at every stage of the client relationship.
 
@@ -55,7 +55,7 @@ These assets demonstrate the ability to shift voice and tone to support sales cy
 ## Technical Reference: Industrial Manuals & Compliance
 These documents represent long-term operational support and regulatory safety compliance.
 
-### **SENS PowerCab2 Technical Manual**
+### **Technical Manual**
 * **The Goal**: To provide a definitive resource for the installation and maintenance of factory-packaged DC power systems.
 * **Strategic Design**: Built to satisfy rigorous safety standards (**NFPA 70/CSA C22.1**). I utilized a strict information hierarchy to ensure high-voltage warnings are prominent, mitigating operational risk.
 

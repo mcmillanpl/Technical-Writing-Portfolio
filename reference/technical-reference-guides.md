@@ -12,7 +12,7 @@ This section features comprehensive technical manuals, rapid-deployment hardware
 ## PowerCab2 Installation & Operation Manual
 A definitive, 40+ page technical resource for factory-packaged non-stop DC power systems. This manual serves as the primary authority for the product's entire lifecycle.
 
-* **Target Audience**: Electrical Engineers, Facility Managers, and Certified Electricians.
+* **Target Audience**: Electrical engineers, facility managers, and certified electricians.
 * **Compliance**: Structured to meet **NFPA 70**, **CSA C22.1**, and **UL/CE** safety and installation standards.
 * **Key Content**: Theory of operation, detailed mounting procedures, and long-term maintenance protocols.
 * **Focus**: High-stakes safety communication and complex system configuration.
@@ -23,7 +23,7 @@ A definitive, 40+ page technical resource for factory-packaged non-stop DC power
 ## SuperTorque 8ZR Quick-Start Guide
 A condensed, visual-first deployment guide designed to bridge the gap between unboxing and operation for field technicians.
 
-* **Target Audience**: Field Service Technicians and Installation Contractors.
+* **Target Audience**: Field service technicians and installation contractors.
 * **Key Content**: Annotated engineering drawings, floor mounting templates, and simplified AC/DC terminal connection maps.
 * **Focus**: Accelerating "Time-to-Power" by extracting critical task-based info from the primary technical manual.
 * **[View Quick-Start Guide](./101346_8R_Quick-Start_Guide.pdf)**
@@ -33,7 +33,7 @@ A condensed, visual-first deployment guide designed to bridge the gap between un
 ## Git Command Quick Reference
 An internal developer-facing guide designed to standardize version control workflows and reduce "command-line friction" for engineering teams.
 
-* **Target Audience**: Software Developers, DevOps Engineers, and Technical Authors.
+* **Target Audience**: Software developers, DevOps engineers, and technical authors.
 * **Key Content**: Essential commands for branching strategy, stash management, merge conflict resolution, and remote synchronization.
 * **Focus**: Improving team velocity through a curated, easy-to-scan reference of frequently used CLI operations.
 * **[View Git Command Guide](./git-commands.md)**

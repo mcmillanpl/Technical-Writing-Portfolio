@@ -11,7 +11,7 @@ This section showcases professional marketing and sales enablement assets create
 
 ## SENS SuperTorque 8ZR Data Sheet
 
-* **Target Audience**: Field Engineers, Infrastructure Managers, and Procurement Specialists.
+* **Target Audience**: Field engineers, infrastructure managers, and procurement specialists.
 * **Key Content**: Mission-critical reliability metrics, space-saving enclosure comparisons, and a comprehensive configuration guide.
 * **Focus**: Highlighting the transition from traditional battery setups to a fully integrated, "single part number" system that eliminates maintenance and simplifies installation.
 * **[View Data Sheet](./sample-datasheet.pdf)**
@@ -20,7 +20,7 @@ This section showcases professional marketing and sales enablement assets create
 
 ## OnX Company Overview Info Sheet
 
-* **Target Audience**: Fortune 500 Executives, Government Agencies, and Healthcare Institutions.
+* **Target Audience**: Fortune 500 executives, government agencies, and healthcare institutions.
 * **Key Content**: Strategic partnership overviews, workforce mobility enablement, and managed cloud strategy benefits.
 * **Focus**: Communicating enterprise-scale resources and a delivery model designed to modernize e-commerce platforms and improve data protection.
 * **[View Information Sheet](./sample-infosheet.pdf)**

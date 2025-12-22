@@ -17,7 +17,7 @@ This portfolio is organized into four distinct categories to demonstrate versati
 
 ### 1. Developer Documentation (API Suite)
 Strategic API references for contract generation and CRM integration.
-* **[API Documentation Overview](./API/api-overview.md)**: A high-level entry point for the RESTful suite, including User Access, Webhooks, and Salesforce Query services.
+* **[API Documentation Overview](./API/api-overview.md)**: A high-level entry point for the RESTful suite, including user access, webhooks, and Salesforce Query services.
 
 ### 2. User Education & Tutorials
 Technical SOPs and programming guides focused on toolchain management and developer onboarding.
@@ -25,11 +25,11 @@ Technical SOPs and programming guides focused on toolchain management and develo
 
 ### 3. Sales & Marketing Collateral
 Product-focused assets designed for sales enablement and executive-level decision-making.
-* **[Sales & Marketing Overview](./Sales%20and%20Marketing/sales-marketing-collateral.md)**: Includes the SENS SuperTorque 8ZR technical data sheet and the OnX Corporate Capabilities overview.
+* **[Sales & Marketing Overview](./Sales%20and%20Marketing/sales-marketing-collateral.md)**: Includes a data sheet sample and the corporate capabilities overview sample.
 
 ### 4. Technical Reference Guides
 Comprehensive manuals, hardware guides, and developer workflow references.
-* **[Technical Reference Overview](./reference/technical-reference-guides.md)**: Featuring the PowerCab2 Manual, the 8ZR Quick-Start Guide, and the Git Command Quick Reference.
+* **[Technical Reference Overview](./reference/technical-reference-guides.md)**: Featuring the a user manual sample, a quick start manual sample, and the Git Command Quick Reference.
 
 ---
 
@@ -37,16 +37,16 @@ Comprehensive manuals, hardware guides, and developer workflow references.
 
 | Category | Skills and Tools |
 | :--- | :--- |
-| **Domain Expertise** | Salesforce CRM & CLM, Managed IT Services, **Industrial Power Systems**, Product Management. |
-| **Technical Writing** | Markdown (Docs-as-Code), REST API References, **Installation & Operation Manuals (IOM)**, **Quick-Start Guides**, Data Sheets. |
-| **Compliance & Standards** | **NFPA 70 / CSA C22.1 Safety Standards**, **UL/CE Certification Documentation**, Version Control (DCN/RMA). |
+| **Domain Expertise** | Salesforce CRM & CLM, managed IT services, industrial power systems, product management. |
+| **Technical Writing** | Markdown (Docs-as-Code), REST API references, installation & operation manuals (IOM), quick-start guides, data sheets. |
+| **Compliance & Standards** | NFPA 70 / CSA C22.1 safety standards, UL/CE Certification documentation, version control (DCN/RMA). |
 | **Development Tools** | **MadCap Flare**, Git, GitHub, VS Code, SOQL, Postman, Adobe Acrobat Pro. |
-| **Strategy** | Information Architecture, UX Writing, Stakeholder Management, Risk Mitigation. |
+| **Strategy** | Information architecture, UX writing, stakeholder management, risk mitigation. |
 
 ---
 
 ## Project Methodology
-For a detailed breakdown of the design choices, target audiences, and strategic goals behind these samples, please visit the **[Project Details](./project-details.md)** page.
+For a detailed breakdown of the design choices, target audiences, and strategic goals behind these samples, visit the **[Project Details](./project-details.md)** page.
 
 ---
 
