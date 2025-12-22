@@ -25,11 +25,11 @@ Technical SOPs and programming guides focused on toolchain management and develo
 
 ### 3. Sales & Marketing Collateral
 Product-focused assets designed for sales enablement and executive-level decision-making.
-* **[Sales & Marketing Overview](./Sales%20and%20Marketing/sales-marketing-collateral.md)**: Includes a data sheet sample and the corporate capabilities overview sample.
+* **[Sales & Marketing Overview](./Sales%20and%20Marketing/sales-marketing-collateral.md)**: Includes a data sheet sample and a corporate capabilities overview sample.
 
 ### 4. Technical Reference Guides
 Comprehensive manuals, hardware guides, and developer workflow references.
-* **[Technical Reference Overview](./reference/technical-reference-guides.md)**: Featuring the a user manual sample, a quick start manual sample, and the Git Command Quick Reference.
+* **[Technical Reference Overview](./reference/technical-reference-guides.md)**: Featuring a user manual sample, a quick start manual sample, and the Git Command Quick Reference.
 
 ---
 
