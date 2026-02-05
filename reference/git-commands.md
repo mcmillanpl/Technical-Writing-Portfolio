@@ -1,8 +1,3 @@
----
-layout: page
-title: Git Command Quick Reference
----
-
 # Git Command Quick Reference
 
 This document provides a foundational reference for version control workflows, covering directory navigation, Git configuration, and the standard remote repository lifecycle.
@@ -39,8 +34,6 @@ Setting up your identity within the Git environment.
 
 ## The Git Workflow
 These commands move data between your working directory, the staging area, and the remote repository.
-
-
 
 | Command | Description |
 | ----------- | ----------- |

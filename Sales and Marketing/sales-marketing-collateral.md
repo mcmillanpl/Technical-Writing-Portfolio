@@ -1,8 +1,3 @@
----
-layout: page
-title: Sales and Marketing Collateral
----
-
 # Sales and Marketing Collateral
 
 This section showcases professional marketing and sales enablement assets created for industry-leading technology providers. These samples demonstrate an ability to communicate complex technical specifications and high-level business value to diverse stakeholders.

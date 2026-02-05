@@ -60,7 +60,7 @@ class Conversion
  }
 ```
 
-## Define the method
+## Define the Method
 Now that your class is defined, you will now create your method. This method will take the value of the ``fahrenheit`` variable and return an equivalent value in Celsius to the ``celsius`` variable. 
 In your code, declare a static method called ``F_to_c``, which returns a decimal value and takes a decimal argument named ``temp``. 
 

@@ -1,8 +1,3 @@
----
-layout: page
-title: User Education & Tutorials
----
-
 # User Education & Tutorials
 
 This section demonstrates the ability to document complex software workflows and development environments. These guides focus on "Docs-as-Code" methodology and advanced programming concepts, providing clear paths for both technical writers and developers.
@@ -23,12 +18,13 @@ A series of technical SOPs (Standard Operating Procedures) for managing document
 Focused educational content for software engineers and developers working with the .NET ecosystem.
 
 * **[Advanced Operations on Numbers in C#](./advanced-operations-on-numbers-in-C#.md)**: A deep dive into numerical precision, bitwise operations, and performance optimization in C#.
-* **Focus**: Translating abstract mathematical programming concepts into practical, readable code samples and explanations.
+* **Focus**: Translating abstract mathematical programming concepts into practical, readable code samples, and explanations.
 
 ---
 
 ## Documentation Standards
-All tutorials in this folder are built with a focus on developer experience (DX) and process scalability:
+Tutorials in this folder are built with a focus on developer experience (DX) and process scalability:
+
 * **Docs-as-Code**: Demonstrating the integration of professional authoring tools (MadCap Flare) with developer workflows (GitHub).
 * **Step-Oriented Instruction**: Every guide utilizes a "Goal-Action-Result" structure to ensure users can verify their progress at every stage.
 * **Technical Accuracy**: Code-heavy tutorials are vetted for syntax accuracy and follow industry-standard naming conventions.

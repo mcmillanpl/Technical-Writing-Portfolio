@@ -1,8 +1,3 @@
----
-layout: page
-title: API Strategy - Webhook Notifications
----
-
 # Webhook Subscription API
 
 ## Overview
@@ -24,32 +19,46 @@ Registers a new URL to receive event notifications.
 **Example Request:**
 ```json
 {
-  "target_url": "[https://your-app.com/webhooks/conga](https://your-app.com/webhooks/conga)",
+  "target_url": "https://your-app.com/webhooks/conga",
   "event_type": "document.signed",
   "secret_token": "shhh_its_a_secret"
 }
-Endpoint: List Active Subscriptions
-GET /v1/webhooks/subscriptions
+```
 
-Response Example (200 OK)
+## Response Example (200 OK)
+```json
 {
   "subscriptions": [
     {
       "id": "sub_001",
-      "target_url": "[https://your-app.com/webhooks/conga](https://your-app.com/webhooks/conga)",
+      "target_url": "https://your-app.com/webhooks/conga",
       "status": "active",
       "created_at": "2025-12-18T12:00:00Z"
     }
   ]
 }
-Event Payload Example
+```
+
+### Event Payload Example
 When a document is signed, your target_url will receive this JSON payload:
+```json
 {
   "event": "document.signed",
   "timestamp": "2025-12-18T14:30:05Z",
   "data": {
     "document_id": "doc_88291",
     "signer_email": "client@example.com",
-    "audit_url": "[https://congasign.com/audit/88291](https://congasign.com/audit/88291)"
+    "audit_url": "https://congasign.com/audit/88291"
   }
 }
+```
+
+---
+
+## Security & Verification
+To ensure that incoming notifications are actually from the **Contract Generator API** and not a malicious third party, we include the `secret_token` in the payload.
+
+### **Verification Steps**
+1. **Compare Tokens:** Your listener should check the `secret_token` in the incoming JSON against the token you provided during registration.
+2. **Reject Unmatched Requests:** If the tokens do not match, your system should return a `401 Unauthorized` response and ignore the data.
+3. **Use HTTPS:** Always use an `https://` target URL to ensure your data and tokens are encrypted during transit.

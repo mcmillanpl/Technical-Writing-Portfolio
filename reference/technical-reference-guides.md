@@ -1,15 +1,10 @@
----
-layout: page
-title: Technical Reference Guides
----
-
 # Technical Reference Guides
 
 This section features comprehensive technical manuals, rapid-deployment hardware guides, and developer workflow references. These samples demonstrate the ability to manage high-density information, maintain regulatory compliance, and provide actionable instructions for both field engineers and software developers.
 
 ---
 
-## PowerCab2 Installation & Operation Manual
+## User Manual
 A definitive, 40+ page technical resource for factory-packaged non-stop DC power systems. This manual serves as the primary authority for the product's entire lifecycle.
 
 * **Target Audience**: Electrical engineers, facility managers, and certified electricians.
@@ -20,7 +15,7 @@ A definitive, 40+ page technical resource for factory-packaged non-stop DC power
 
 ---
 
-## SuperTorque 8ZR Quick-Start Guide
+## Quick-Start Guide
 A condensed, visual-first deployment guide designed to bridge the gap between unboxing and operation for field technicians.
 
 * **Target Audience**: Field service technicians and installation contractors.
@@ -42,6 +37,7 @@ An internal developer-facing guide designed to standardize version control workf
 
 ## Documentation Standards
 All documents in this section adhere to strict engineering and software document control standards:
+
 * **DCN (Document Change Notice)**: Tracking for version history in hardware manuals.
 * **Safety Signaling**: Consistent use of ANSI/ISO-compliant warning and caution symbology.
 * **CLI Documentation**: Adherence to standard terminal notation (e.g., `<bracket_parameters>`, `[optional_flags]`) for software references.

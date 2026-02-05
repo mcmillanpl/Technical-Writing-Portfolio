@@ -1,8 +1,3 @@
----
-layout: page
-title: Project Details & Documentation Strategy
----
-
 # Project Details
 
 ## Purpose

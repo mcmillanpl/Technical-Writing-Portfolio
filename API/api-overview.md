@@ -1,8 +1,3 @@
----
-layout: page
-title: API Documentation Overview
----
-
 # API Documentation Overview
 
 This section contains technical specifications and reference guides for a simulated high-scale integration between Salesforce CRM and a third-party Contract Generation engine. These samples demonstrate the ability to document complex RESTful architectures, authentication flows, and real-time data synchronization.

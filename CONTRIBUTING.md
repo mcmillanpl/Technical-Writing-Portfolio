@@ -1,8 +1,3 @@
----
-layout: page
-title: Style Guide & Contributor Standards
----
-
 # Technical Documentation Style Guide
 
 This guide defines the standards for all documentation within this repository. Adhering to these principles ensures consistency, accessibility, and technical authority across both software and hardware domains.

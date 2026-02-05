@@ -1,8 +1,3 @@
----
-layout: page
-title: Portfolio Home
----
-
 # Technical Writing Portfolio
 
 ## Professional Overview

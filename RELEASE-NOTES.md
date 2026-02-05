@@ -1,8 +1,3 @@
----
-layout: page
-title: Release Notes - Q4 2025
----
-
 # Release Notes: Integrated Power & Data Suite
 
 **Release Date**: December 21, 2025  
