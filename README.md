@@ -1,9 +1,9 @@
 # Technical Writing Portfolio
 
 ## Professional Overview
-I am a senior technical writer and product specialist with over a decade of experience across the Salesforce/Conga ecosystems, industrial power systems, and enterprise IT services. My expertise lies in translating complex enterprise workflows—from REST APIs and "Docs-as-Code" methodologies to mission-critical hardware specifications—into clear, actionable documentation.
+I am a Lead Technical Writer and Documentation Product Owner with over a decade of experience driving content strategy across industrial power systems, enterprise IT, and SaaS ecosystems. I specialize in transforming complex technical workflows—ranging from REST APIs and Docs-as-Code methodologies to mission-critical hardware specifications—into scalable, high-impact documentation.
 
-Bridging the gap between technical engineering and business value, I ensure that documentation serves as a strategic asset for developers, end-users, and stakeholders alike.
+As a strategic bridge between engineering, marketing, and legal teams, I don’t just document products; I own the documentation lifecycle. From architecting Jekyll and MadCap Flare environments to designing product roadmaps and prototypes, I ensure that technical content serves as a strategic asset that accelerates user adoption and meets rigorous industry standards.
 
 ---
 
@@ -32,11 +32,11 @@ Comprehensive manuals, hardware guides, and developer workflow references.
 
 | Category | Skills and Tools |
 | :--- | :--- |
-| **Domain Expertise** | Salesforce CRM & CLM, managed IT services, industrial power systems, product management. |
-| **Technical Writing** | Markdown (Docs-as-Code), REST API references, installation & operation manuals (IOM), quick-start guides, data sheets. |
-| **Compliance & Standards** | NFPA 70 / CSA C22.1 safety standards, UL/CE Certification documentation, version control (DCN/RMA). |
-| **Development Tools** | **MadCap Flare**, Git, GitHub, VS Code, SOQL, Postman, Adobe Acrobat Pro. |
-| **Strategy** | Information architecture, UX writing, stakeholder management, risk mitigation. |
+| **Domain Expertise** | Salesforce CRM & CLM (Admin), Conga Composer/Sign/Contracts, Managed IT Services, Industrial Power Systems, Product Ownership. |
+| **Technical Writing** | Markdown (Docs-as-Code), REST API references, Installation & Operation Manuals (IOM), SOPs, UX Writing, Data Sheets. |
+| **Compliance & Standards** | NFPA 70 / CSA C22.1 safety standards, UL/CE Certification documentation, DCN/RMA version control. |
+| **Development Tools** | **MadCap Flare**, Git/GitHub, VS Code, Jekyll, Postman, SOQL, Adobe Creative Suite. |
+| **Product Strategy** | Documentation Lifecycle Management (DLC), Roadmap Design, Prototyping, Agile/SCRUM, Stakeholder Management. |
 
 ---
 
