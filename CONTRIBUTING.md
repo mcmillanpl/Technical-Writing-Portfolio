@@ -69,4 +69,4 @@ Before merging any documentation update:
 3. **Style Compliance**: Ensure the document adheres to this guide.
 
 ---
-*Questions? Contact the Lead Technical Writer at [mcmillan.pld@gmail.com](mailto:mcmillan.pld@gmail.com).*
+*Questions? Contact me at [mcmillan.pld@gmail.com](mailto:mcmillan.pld@gmail.com).*
