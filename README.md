@@ -1,4 +1,4 @@
-# Technical Writing Portfolio
+# Technical Portfolio
 
 ## Professional Overview
 I am a Lead Technical Writer and Documentation Product Owner with over a decade of experience driving content strategy across industrial power systems, enterprise IT, and SaaS ecosystems. I specialize in transforming complex technical workflows—ranging from REST APIs and Docs-as-Code methodologies to mission-critical hardware specifications—into scalable, high-impact documentation.
