@@ -58,3 +58,66 @@ During the process of [setting up a new project](https://github.com/mcmillanpl/S
 4. You can add optional internal comments in the **Comment** field.
 5. Select the **Keep files checked out** checkbox to check out the project files once you are finished.
 6. Select **OK**.
+
+---
+
+## Best Practices for Source Control in Flare
+
+To maintain a healthy project and avoid "merge hell," follow these industry-standard practices:
+
+### 1. Manage Your `.gitignore` (Git Users)
+Do not track Flare's output or temporary files. This keeps the repository small and prevents conflicts on files that are automatically regenerated.
+* **Exclude the `Output/` folder:** Compiled targets should stay local or be moved to a web server.
+* **Exclude the `Users/` folder:** This contains your personal window layouts and local settings.
+* **Exclude `Analyzer/` data:** These are temporary database files used for project reports.
+
+### 2. Commit Often, Commit Small
+Break your work into logical chunks. Instead of one massive commit at the end of the week, commit every time you finish a specific topic or CSS update. This makes it much easier to **Revert to previous versions** if a mistake is made.
+
+### 3. Use Descriptive Comments
+Avoid comments like "Fixed stuff." Use clear descriptions like:
+* `docs: added troubleshooting steps for API authentication`
+* `style: updated primary branding colors in MainStyles.css`
+
+---
+
+## Connection Troubleshooting
+
+| Error/Status | Meaning | Resolution |
+| :--- | :--- | :--- |
+| **Authentication Failed** | Incorrect Credentials | Verify your PAT (Personal Access Token) for Git or LDAP password for TFS. |
+| **Repository Not Found** | URL Mismatch | Check for typos in the SSH/HTTP address or ensure the repo is initialized. |
+| **Key Exchange Error** | SSH Configuration | Ensure the Private Key provided matches the Public Key stored in the VCS. |
+| **Permission Denied** | Access Rights | Ensure your user account has 'Write' or 'Contributor' permissions on the server. |
+
+---
+
+## Recommended .gitignore Template
+Copy the following into a file named `.gitignore` in your project's root directory to prevent tracking unnecessary files:
+
+```text
+# Flare Output and Temporary Folders
+Output/
+Analyzer/
+Project/Users/
+Project/Reports/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Flare Search Indexes
+HTML5.search
+```
+
+### How to use this file
+1. Navigate to the Root Folder of your Flare project on your local machine.
+
+2. Create a new text file and name it .gitignore (ensure there is no .txt extension).
+
+3. Paste the contents above into the file and save.
+
+4. Flare will now ignore these folders when you perform your next Push on bind or commit.

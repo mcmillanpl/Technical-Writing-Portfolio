@@ -1,27 +1,42 @@
 # Import an existing MadCap project from Git
-This tutorial outlines the steps to import an existing MadCap project from Git to a user's local computer. Importing an existing MadCap project from Git can be useful when you want to reuse content, styles, or other elements from one project to another, saving time and effort in creating new content from scratch.
+
+This tutorial outlines the steps to import an existing MadCap project from Git to your local computer. This process—commonly referred to as "cloning"—allows you to collaborate on a shared project, maintain version history, and reuse established styles and content across your team.
 
 ## Prerequisites
-Before you begin, you will need to have the following:
+Before you begin, ensure you have the following:
 
-- A GitHub account.
-- Git installed/configured on your local computer.
-- MadCap Flare installed on your computer.
-- A MadCap repository created in a GitHub repository. 
+- A GitHub account with access to the project repository.
+- Git installed and configured on your local computer.
+- MadCap Flare installed.
+- The SSH or HTTPS URL for the target repository.
 
 ## Import existing project
-1. Go to the repository containing the MadCap Flare project you want to import.
-2. Copy the SSH/HTTPS link.
-3. In MadCap Flare, select the **File** drop-down, then **New Project**.
+1. Navigate to the GitHub repository containing the MadCap Flare project you want to import.
+2. Select the **Code** button and copy the **SSH** or **HTTPS** link.
+3. In MadCap Flare, select the **File** menu, then select **New Project**.
 4. Select **Import From Source Control**.
-5. In the **Import Project From Source Control Wizard** window, paste the copied SSH/HTTPS link into the **Remote:**  field.
+5. In the **Import Project From Source Control Wizard**, select **Git** as the provider and paste the copied link into the **Remote Repository** field.
+6. Select **Next**.
+   - *Note: If using SSH for the first time, you may be prompted to point Flare to your private key file.*
+7. Select **Browse**, then locate and select the `.flprj` (Flare Project) file from the remote repository list. Select **OK**.
+8. Select **Next**, then review the **Project Name** and the **Project Folder** (where the files will live on your hard drive). 
+9. Select **Finish**.
 
-    ![image](https://github.com/mcmillanpl/Sample/assets/156026947/5bf34568-9729-4032-a6fc-95f94e7b8f7c)
-7. Select **Next**
-8. Select **Browse**, then select the MadCap Flare project from the remote repository. Select **Ok**.
-9. Select **Next**. then reviewthe project name and folder. Select **Finish**.
+The MadCap project will now be downloaded to your local computer and remains "bound" to the remote repository, allowing you to Pull updates and Push changes.
 
-The MadCap project will now be available on your local computer and is bound to your remote repository. 
+---
+
+## Troubleshooting Common Import Errors
+
+| Error | Cause | Resolution |
+| :--- | :--- | :--- |
+| **Permission Denied (publickey)** | SSH Key Mismatch | Ensure your SSH public key is added to your GitHub account settings. In Flare, verify you have selected the correct private key file. |
+| **Repository Not Found** | Incorrect URL | Double-check that you copied the full URL (ending in `.git`) and that you have "Read" access to that specific repository. |
+| **Empty Project List** | Missing `.flprj` file | Ensure the repository actually contains a Flare project file. If the project is in a subfolder, you must navigate into that folder during the "Browse" step. |
+| **SSL Certificate Problem** | Network/Firewall | If using HTTPS, your company's firewall may be intercepting the connection. Try switching to SSH or contact your IT department. |
+
+---
 
 ## Related pages
 - [Connect MadCap Flare to Git](https://github.com/mcmillanpl/Sample/blob/main/tutorials/connect-madcap-github.md)
+- [Bind an existing project to Source Control](https://github.com/mcmillanpl/Sample/blob/main/tutorials/bind-to-source-control.md)
