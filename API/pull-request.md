@@ -1,8 +1,3 @@
----
-layout: page
-title: API Strategy - Salesforce Integration (Pull Requests)
----
-
 # Pull Request API (Salesforce)
 
 ## Overview
@@ -38,3 +33,29 @@ Triggers a request to fetch specific record data from Salesforce.
   "object_type": "Account",
   "fields": ["Name", "BillingStreet", "Phone"]
 }
+```
+
+### Response Example (202 Accepted)
+Since data synchronization can take a moment, the API returns an acknowledgment with a `sync_id`.
+```json
+{
+  "status": "processing",
+  "sync_id": "sync_998877",
+  "message": "Data pull initiated successfully."
+}
+```
+
+---
+
+## Status Codes (Salesforce Sync)
+Use this guide to troubleshoot the results of your Salesforce data pull:
+
+| Status Code | Meaning | Outcome |
+| :--- | :--- | :--- |
+| **202 Accepted** | **Sync Started** | The request is valid and the data pull from Salesforce is now in progress. |
+| **400 Bad Request** | **Invalid Fields** | One or more fields requested (e.g., `BillingStreet`) do not exist on that Salesforce object. |
+| **401 Unauthorized** | **Auth Failed** | Your Bearer Token is invalid or has expired. |
+| **404 Not Found** | **Record Missing** | The specific Salesforce `record_id` could not be found in the connected org. |
+| **429 Too Many Requests** | **Rate Limit** | You have exceeded the Salesforce API daily limit. Try again later. |
+
+---

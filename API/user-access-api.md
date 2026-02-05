@@ -1,8 +1,3 @@
----
-layout: page
-title: API Strategy - User Access & Provisioning
----
-
 # User Access API v2.1
 
 ## Overview
@@ -31,9 +26,11 @@ Retrieves a list of all active users and their assigned Conga/Salesforce permiss
 | `license_type` | String | No | Filter by `conga_sign` or `salesforce`. |
 
 ### **Response Example (200 OK)**
+The API returns a `users` array containing detailed permission sets and `last_login` data.
+
 ```json
 {
-  "total_results": 2,
+  "total_results": 1,
   "users": [
     {
       "user_id": "u_9982",
@@ -44,3 +41,24 @@ Retrieves a list of all active users and their assigned Conga/Salesforce permiss
     }
   ]
 }
+```
+
+---
+
+## Rate Limiting
+To ensure system stability and security, the User Access API is subject to administrative rate limits. If you exceed these limits, the API will return a `429 Too Many Requests` status.
+
+* **Limit:** 100 requests per minute per Admin Token.
+* **Window:** Sliding 60-second window.
+
+### **Updated Status Codes (Access API)**
+
+| Status Code | Meaning | Outcome |
+| :--- | :--- | :--- |
+| **200 OK** | **Success** | The list of users was retrieved successfully. |
+| **401 Unauthorized** | **Auth Failed** | Your Bearer Token is invalid or expired. |
+| **403 Forbidden** | **Insufficient Privileges** | Your account does not have "Admin" rights to view user access lists. |
+| **429 Too Many Requests** | **Rate Limit** | You have exceeded the administrative request quota. Please wait 60 seconds. |
+| **500 Internal Error** | **Server Error** | An unexpected error occurred. Please contact Conga Support. |
+
+---
