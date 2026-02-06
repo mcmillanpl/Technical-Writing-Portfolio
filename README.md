@@ -5,6 +5,8 @@ I am a Lead Technical Writer and Documentation Product Owner with over a decade 
 
 As a strategic bridge between engineering, marketing, and legal teams, I don’t just document products; I own the documentation lifecycle. From architecting Jekyll and MadCap Flare environments to designing product roadmaps and prototypes, I ensure that technical content serves as a strategic asset that accelerates user adoption and meets rigorous industry standards.
 
+> For case studies on how I leverage my skill set to drive business value, visit the [Case Studies](./case-studies.md) page. 
+
 ---
 
 ## Technical Documentation & Strategy
