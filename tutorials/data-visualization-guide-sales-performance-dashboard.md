@@ -8,8 +8,6 @@ This document outlines the architecture, data transformations, and visualization
 ## 1. Data Connectivity & Transformation
 The report utilizes a **Star Schema** to optimize performance and ensure data integrity.
 
-
-
 ### Data Sources
 * **SQL Server:** Primary sales transactions and historical data.
 * **Excel (SharePoint):** Monthly quota targets and regional mapping.

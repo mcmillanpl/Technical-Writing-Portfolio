@@ -20,10 +20,29 @@ My goal was to bridge the gap between these departments by creating a "single so
 
 ---
 
+### Architecting a Multi-Brand CPQ & CLM Integration
+
+**Situation:**
+At CBTS, I led the documentation architecture for a custom **Quote-to-Cash (CPQ)** and **Contract Lifecycle Management (CLM)** solution built within Salesforce. The initial stakeholder directive was to consolidate all outputs into a single document type to simplify the system. I recognized that this would create significant legal risk and brand dilution.
+
+**Task:**
+My goal was to design a system that handled high complexity—supporting two different subsidiaries and seven distinct document types—while keeping the process "one-click" simple for the Sales team. I aimed to solve the bottleneck between a closed deal and recognized revenue.
+
+**Action:**
+* **Strategic Advocacy:** I pushed back on the "one-size-fits-all" plan, identifying seven distinct audiences (e.g., internal purchasing vs. external customers) and state-specific legal requirements.
+* **Logic Design:** I architected the system logic to automatically detect the subsidiary, region, and product line from the Salesforce Account data. 
+* **Technical Build:** I developed custom code logic within the **Conga** integration to automatically query data fields, apply the correct CSS/branding, and generate pre-populated, legally compliant PDFs.
+* **Cross-Functional Alignment:** I coordinated between Legal (for clause accuracy), Marketing (for brand enforcement), and IT (for data mapping) to ensure the technical build met all business needs.
+
+**Result:**
+* **Operational Precision:** Achieved **100% brand and legal alignment** across both subsidiaries, eliminating the risk of manual drafting errors.
+* **Extreme Efficiency:** The automation and template standardization **reduced documentation creation time by 70%**.
+* **Revenue Velocity:** By streamlining the approval and generation process, we **reduced "Sales to Profit" time by 30%**, allowing for faster revenue recognition.
+
 # Case Study: Implementing a Global Technical Governance Standard 
 
 ### **Situation**
-At Trimble, I managed a team of five technical writers working across different product lines. I identified that the team lacked a centralized style guide, which led to a fragmented user experience. Documents were inconsistent in tone, formatting, and branding, which created confusion for customers and undermined the professional image of the technical resources.
+At Trimble, I was part of a team of five technical writers working across different product lines. I identified that the team lacked a centralized style guide, which led to a fragmented user experience. Documents were inconsistent in tone, formatting, and branding, which created confusion for customers and undermined the professional image of the technical resources.
 
 ### **Task**
 My goal was to establish a "single source of truth" for all technical communications. I needed to create a scalable framework that ensured every document, regardless of which writer produced it, met the company’s high standards for branding and technical clarity.
