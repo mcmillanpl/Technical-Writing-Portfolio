@@ -20,27 +20,6 @@ My goal was to bridge the gap between these departments by creating a "single so
 
 ---
 
-# Case Study: Engineering a Scalable Governance Framework 
-
-### **Situation**
-At Stored Energy Systems (SENS), the company was undergoing rapid growth, which put immense pressure on technical output. I identified that the documentation and requirement-gathering process was becoming a major bottleneck. There was no formal review cycle or designated Subject Matter Expert (SME) assignment, leading to "chokepoints" where projects stalled while waiting for technical validation.
-
-### **Task**
-My goal was to transition the team from an ad-hoc workflow to a scalable, structured governance framework. I needed to ensure that every technical deliverable was accurate, approved by the right stakeholders, and moved through the pipeline without manual follow-ups.
-
-### **Action**
-* **Audit & Mapping:** I conducted a "gap analysis" of the current workflow to identify exactly where the delays were occurring. I found that 40% of the delay was due to SMEs not knowing when or what they needed to review.
-* **Process Design:** I drafted a new, end-to-end documentation lifecycle. This included a **RACI matrix** (Responsible, Accountable, Consulted, Informed) to clearly define who needed to sign off on system requirements and technical specs.
-* **Tool Implementation:** I implemented a centralized tracking system within **Jira and Confluence** that automated notifications to SMEs when a document reached the "Review" stage.
-* **Change Management:** I led training sessions for the Engineering, Sales, and Marketing leads to ensure buy-in on the new "review-gate" process.
-
-### **Result**
-* **30% Faster Time-to-Market** for technical documentation and product specifications.
-* **10% Reduction** in downstream support inquiries from the Sales team due to increased technical accuracy.
-* **Proven Scalability:** The process successfully supported a portfolio expansion of 20+ new product lines without requiring additional headcount.
-
----
-
 # Case Study: Implementing a Global Technical Governance Standard 
 
 ### **Situation**
