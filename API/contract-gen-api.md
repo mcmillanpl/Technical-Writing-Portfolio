@@ -43,7 +43,7 @@ curl -X POST https://api.contractgen.com/v1/generate \
 
 ## Response Examples
 ### **201 Created (Success)**
-When the request is successful, the API returns a JSON object containing the contract_id and a temporary link to the generated document.
+When the request is successful, the API returns a JSON object containing the `contract_id` and a temporary link to the generated document.
 ```JSON
 {
   "status": "success",
@@ -56,7 +56,7 @@ When the request is successful, the API returns a JSON object containing the con
 ```
 
 ### **400 Bad Request (Error)**
-If required fields (such as client_name) are missing or improperly formatted, the API returns a 400 error.
+If required fields (such as `client_name`) are missing or improperly formatted, the API returns a 400 error.
 ```JSON
 {
   "status": "error",
