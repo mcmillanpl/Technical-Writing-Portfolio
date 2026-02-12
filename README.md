@@ -47,9 +47,7 @@ For a detailed breakdown of the design choices, target audiences, and strategic 
 
 ---
 
-## Contact and Professional Profiles
+## Contact 
 * **LinkedIn**: [Pamela McMillan](https://www.linkedin.com/in/pamela-mcmillan/)
 * **Email**: [mcmillan.pld@gmail.com](mailto:mcmillan.pld@gmail.com)
 * **GitHub**: [mcmillanpl](https://github.com/mcmillanpl)
-
-*"Documentation is the final feature of any successful product."*
